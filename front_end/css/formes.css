@@ -1,0 +1,28 @@
+.card_img{
+    width:250px;
+    height:230px;
+    z-index: 1px;
+}
+
+.container{
+    position:relative;
+    margin: 0 40px;
+}
+.row{
+    position:absolute;
+    height:300px;
+    width:30%;
+    border-left: 0 solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 400px solid black;
+   
+}
+.row::after{
+    position:absolute;
+    width: 800px;
+    height: 400px;
+    background-color: #ce0033;
+    /* margin-left:460px; */
+    /* text-align: justify;
+    color:white; */
+}
